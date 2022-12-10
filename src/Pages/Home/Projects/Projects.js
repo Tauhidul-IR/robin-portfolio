@@ -12,7 +12,8 @@ const Projects = () => {
                     <figure className="px-10 pt-10">
                         <img src={bikroyBD} alt="Shoes" className="rounded-xl" />
                     </figure>
-                    <div className="card-body items-center text-center">
+                    <div className="card-body items-start text-center">
+                        <h6 className='text-red-800 font-extrabold'>React | JavaScript | MongoDB</h6>
                         <h2 className="card-title">Bikroy-BD</h2>
                         <p>This is 2nd hand products reselling Website</p>
                         <div className="card-actions">
@@ -24,7 +25,8 @@ const Projects = () => {
                     <figure className="px-10 pt-10">
                         <img src={travel} alt="Shoes" className="rounded-xl" />
                     </figure>
-                    <div className="card-body items-center text-center">
+                    <div className="card-body items-start text-center">
+                        <h6 className='text-red-800 font-extrabold'>React | JavaScript | MongoDB</h6>
                         <h2 className="card-title">T-Travel</h2>
                         <p>This is Tourist Guide service Website</p>
                         <div className="card-actions">
@@ -36,7 +38,8 @@ const Projects = () => {
                     <figure className="px-10 pt-10">
                         <img src={programming} alt="Shoes" className="rounded-xl" />
                     </figure>
-                    <div className="card-body items-center text-center">
+                    <div className="card-body items-start text-center">
+                        <h6 className='text-red-800 font-extrabold'>React | JavaScript | MongoDB</h6>
                         <h2 className="card-title">Free Programming</h2>
                         <p>This is Education Website</p>
                         <div className="card-actions">
