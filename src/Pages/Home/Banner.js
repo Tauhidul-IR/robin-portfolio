@@ -24,7 +24,7 @@ const Banner = () => {
                 <div className="max-w-md">
                     <h1 className="mb-5 text-black text-5xl font-bold">Hello, I'm <br /> Tauhidul Islam Robin</h1>
                     <p className="mb-5 text-black">A Frontend Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.</p>
-                    <button onClick={onButtonClick} className="btn btn-outline btn-primary "><Link className='text-black'>Resume</Link></button>
+                    <button onClick={onButtonClick} className="btn btn-sm  btn-primary "><Link className='text-white'>Resume</Link></button>
                 </div>
             </div>
         </div>

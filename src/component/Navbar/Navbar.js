@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import img from '../../image/A-18771.jpg'
+import img from '../../image/robin.JPG'
 
 const Navbar = () => {
 
 
     const menuItem = <React.Fragment>
         <li><Link className='text-xl font-bold' to={'/'}>Home</Link></li>
-        <li><Link className='text-xl font-bold' to={'/about'}>About</Link></li>
-        <li><Link className='text-xl font-bold' to={'/project'}>Projects</Link></li>
-        <li><Link className='text-xl font-bold' to={'/contact'}>Contact</Link></li>
+        <li><Link className='text-xl font-bold' to={'/'}>About</Link></li>
+        <li><Link className='text-xl font-bold' to={'/'}>Projects</Link></li>
+        <li><Link className='text-xl font-bold' to={'/'}>Contact</Link></li>
 
         {/* <li tabIndex={0}>
             <a className="justify-between">
@@ -38,11 +40,11 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar hidden sm:flex">
-                    <div className="w-8 rounded-full ">
-                        <img src="https://placeimg.com/80/80/people" />
+                    <div className="w-10 rounded-full ">
+                        <img src={img} alt={'profile img'} />
                     </div>
                 </label>
-                <a className="btn btn-ghost normal-case text-xl">Tauhidul Islam Robin</a>
+                <Link to={'/'} className="btn btn-ghost normal-case font-bold text-xl">Tauhidul Islam Robin</Link>
             </div>
             <div className="navbar-end hidden md:flex">
                 <ul className="menu menu-horizontal px-1">
