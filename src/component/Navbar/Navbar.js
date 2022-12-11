@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // import img from '../../image/A-18771.jpg'
-import img from '../../image/robin2.jpg'
+import img from '../../image/logo.png'
 
 const Navbar = () => {
 

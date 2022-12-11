@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import img from '../../image/footer.png'
+import img from '../../image/logo.png'
 
 const Footer = () => {
     return (
