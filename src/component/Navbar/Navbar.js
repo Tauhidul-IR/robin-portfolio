@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const menuItem = <React.Fragment>
         <li><Link className='text-xl font-bold' to={'/'}>Home</Link></li>
-        <li><Link className='text-xl font-bold' to={'/'}>About</Link></li>
+        <li><Link className='text-xl font-bold' to={'/about'}>About Me</Link></li>
         <li><Link className='text-xl font-bold' to={'/allProjects'}>Projects</Link></li>
         <li><Link className='text-xl font-bold' to={'/blogs'}>Blogs</Link></li>
         <li><Link className='text-xl font-bold' to={'/'}>Contact</Link></li>
