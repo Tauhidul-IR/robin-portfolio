@@ -2,6 +2,7 @@ import React from 'react';
 import bikroyBD from '../../../image/bikroybd.JPG'
 import travel from '../../../image/travel.JPG'
 import programming from '../../../image/programming.JPG'
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -18,6 +19,7 @@ const Projects = () => {
                         <p>This is 2nd hand products reselling Website</p>
                         <div className="card-actions">
                             <button className="btn btn-sm btn-primary"><a href="https://bikroybd-8102c.web.app/" target={"_blank"}>Live link</a></button>
+                            <button className="btn btn-sm btn-primary"><Link to={'/prejectBikroyBDInfo'} >Details</Link></button>
                         </div>
                     </div>
                 </div>
@@ -31,6 +33,7 @@ const Projects = () => {
                         <p>This is Tourist Guide service Website</p>
                         <div className="card-actions">
                             <button className="btn btn-sm btn-primary"><a href="https://t-travel-9b753.web.app/" target={"_blank"}>Live link</a></button>
+                            <button className="btn btn-sm btn-primary"><Link to={'/prejectTTravelInfo'} >Details</Link></button>
                         </div>
                     </div>
                 </div>
@@ -44,6 +47,7 @@ const Projects = () => {
                         <p>This is Education Website</p>
                         <div className="card-actions">
                             <button className="btn btn-sm btn-primary"><a href="https://free-programming.web.app/" target={"_blank"}>Live link</a></button>
+                            <button className="btn btn-sm btn-primary"><Link to={'/prejectFreeProInfo'} >Details</Link></button>
                         </div>
                     </div>
                 </div>
