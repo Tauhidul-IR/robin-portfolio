@@ -68,7 +68,7 @@ const ContactInfo = () => {
                                 <textarea name='message' className="textarea textarea-bordered" required placeholder="Type your message"></textarea>
                             </div>
 
-                            <input className='w-full  btn btn-neutral' type="submit" value="Send message" />
+                            <input className='w-full  btn btn-primary' type="submit" value="Send message" />
 
                             {
                                 result ? <Result /> : null
