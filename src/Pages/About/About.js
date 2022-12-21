@@ -1,9 +1,27 @@
 import React from 'react';
 import { FaHome, FaPhoneAlt, FaLinkedin } from "react-icons/fa";
 import { IoMdMail, IoMdSchool } from "react-icons/io";
+import { Link } from 'react-router-dom';
 import img from '../../image/photo2.png'
 
 const About = () => {
+
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('resume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'resume.pdf';
+                alink.click();
+            })
+        })
+    }
+
+
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
@@ -18,6 +36,7 @@ const About = () => {
                         <h1 className="text-5xl font-bold">Tauhidul Islam Robin</h1>
                         <h1 className="text-2xl text-primary my-4 font-bold">Front End Web Developer</h1>
                         <p className="py-6 text-lg font-bold">My name is Tauhidul Islam Robin and I am a fresher and currently develope my skill. I am a student at Eastern University. I am studying Computer science and engineering. I am much interested in developing new things which excite me a lot.</p>
+                        <button onClick={onButtonClick} className="btn btn-sm  btn-primary mb-4"><Link className='text-white'>Resume</Link></button>
                         <div>
                             <div className='flex items-center text-xl font-bold text-accent'>
                                 <FaHome></FaHome>

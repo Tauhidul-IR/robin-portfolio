@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><Link className='text-xl font-bold' to={'/about'}>About Me</Link></li>
         <li><Link className='text-xl font-bold' to={'/allProjects'}>Projects</Link></li>
         <li><Link className='text-xl font-bold' to={'/blogs'}>Blogs</Link></li>
-        <li><Link className='text-xl font-bold' to={'/'}>Contact</Link></li>
+        <li><Link className='text-xl font-bold' to={'/contact'}>Contact</Link></li>
 
         {/* <li tabIndex={0}>
             <a className="justify-between">

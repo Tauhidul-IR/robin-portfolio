@@ -4,6 +4,7 @@ import Main from '../layout/Main';
 import About from '../Pages/About/About';
 import AllProjects from '../Pages/AllProjects/AllProjects';
 import Blogs from '../Pages/Blogs/Blogs';
+import ContactInfo from '../Pages/Home/ContactInfo';
 import Home from '../Pages/Home/Home';
 import ProjectBikroyBD from '../Pages/ProjectDetails/ProjectBikroyBD';
 import ProjectFreePro from '../Pages/ProjectDetails/ProjectFreePro';
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: '/about',
                 element: <About></About>
+            },
+            {
+                path: '/contact',
+                element: <ContactInfo></ContactInfo>
             },
         ]
     }
